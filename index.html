@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="main__inner">
+        <div class="main__container container">
+          <header class="header">
+            <h1 class="header__title">ToDo App</h1>
+          </header>
+          <div class="input">
+            <div class="input__inner">
+              <div class="input__area">
+                <input
+                  class="input__input"
+                  type="text"
+                  placeholder="ToDoを入力してね"
+                />
+                <input class="input__btn" type="button" value="追加" />
+              </div>
+            </div>
+          </div>
+
+          <div class="info">
+            <div class="info__inner">
+              <div class="info__container container">
+                <div class="info__info">
+                  <div class="info-item">
+                    <p class="info-item-text">
+                      今日のToDoは全部で<span
+                        class="todo-number"
+                        id="todo-number"
+                      ></span
+                      >個です。
+                    </p>
+                  </div>
+                  <div class="info-item">
+                    <p class="info-item-text">
+                      今日のToDoは残り<span
+                        class="todo-number"
+                        id="todo-rest"
+                      ></span
+                      >個です。
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="lists">
+            <div class="lists__inner">
+              <div class="lists__container container">
+                <div class="lists__area">
+                  <ul class="lists__list">
+                    <li>
+                      JavaScriptの学習<button class="list-delete-btn">
+                        削除
+                      </button>
+                    </li>
+                    <li>
+                      Reactの学習<button class="list-delete-btn">削除</button>
+                    </li>
+                    <li>買い物<button class="list-delete-btn">削除</button></li>
+                    <li>ジム<button class="list-delete-btn">削除</button></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

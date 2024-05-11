@@ -1,0 +1,100 @@
+.main {
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.main__inner {
+  background-color: #eee;
+  max-width: 700px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.header__title {
+  font-size: 30px;
+}
+
+.input {
+}
+
+.input__area {
+}
+
+.input__input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.input__btn {
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.info {
+}
+
+.info__inner {
+}
+
+.info__container {
+  display: flex;
+  justify-content: center;
+}
+
+.info__info {
+}
+
+.info-item {
+  text-align: left;
+}
+
+.todo-number {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.info-item-text {
+}
+
+.lists {
+}
+
+.lists__inner {
+}
+
+.lists__container {
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.lists__area {
+  width: 320px;
+}
+
+.lists__list {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.list-delete-btn {
+  margin-left: 10px;
+}
