@@ -15,14 +15,14 @@
           </header>
           <div class="input">
             <div class="input__inner">
-              <div class="input__area">
+              <form class="input__area">
                 <input
                   class="input__input"
                   type="text"
                   placeholder="ToDoを入力してね"
                 />
-                <input class="input__btn" type="button" value="追加" />
-              </div>
+                <input class="input__btn" type="submit" value="追加" />
+              </form>
             </div>
           </div>
 
@@ -32,19 +32,8 @@
                 <div class="info__info">
                   <div class="info-item">
                     <p class="info-item-text">
-                      今日のToDoは全部で<span
-                        class="todo-number"
-                        id="todo-number"
-                      ></span
-                      >個です。
-                    </p>
-                  </div>
-                  <div class="info-item">
-                    <p class="info-item-text">
-                      今日のToDoは残り<span
-                        class="todo-number"
-                        id="todo-rest"
-                      ></span
+                      今日のToDoは残り<span class="todo-number" id="todo-rest"
+                        >0</span
                       >個です。
                     </p>
                   </div>
@@ -57,8 +46,9 @@
             <div class="lists__inner">
               <div class="lists__container container">
                 <div class="lists__area">
+                  <p class="lists__area__text">今日のToDoはありません。</p>
                   <ul class="lists__list">
-                    <li>
+                    <!-- <li>
                       JavaScriptの学習<button class="list-delete-btn">
                         削除
                       </button>
@@ -67,7 +57,7 @@
                       Reactの学習<button class="list-delete-btn">削除</button>
                     </li>
                     <li>買い物<button class="list-delete-btn">削除</button></li>
-                    <li>ジム<button class="list-delete-btn">削除</button></li>
+                    <li>ジム<button class="list-delete-btn">削除</button></li> -->
                   </ul>
                 </div>
               </div>
